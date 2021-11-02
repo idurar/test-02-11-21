@@ -26,9 +26,9 @@ export default function MainContent() {
               <center>
               
                   <Heading as="h1" size="xl">
-                    Welcome to SterBleu
+                    Welcome to LabelFlow
               </Heading>
-              <Heading as="h2" size="xl" colorScheme="teal" style={{color:"#40E0D0"}}>
+              <Heading as="h2" size="xl" colorScheme="teal" style={{color:"#31CECA"}}>
                 This is an empty view
               </Heading>
               <Text mt="30px" colorScheme="grey" >SuperBlock is simple modular library that allow to compose views with tools , giving you all the building blocks you need to build complex Saas applications</Text>
