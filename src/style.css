@@ -1,0 +1,360 @@
+[class^="col_"],
+[class*=" col_"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  padding: 0 0;
+  display: block;
+}
+[class^="col_"] .grid,
+[class*=" col_"] .grid {
+  margin: 0 -20px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1040px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.halfContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.alpha {
+  padding-left: 0;
+}
+.omega {
+  padding-right: 0;
+}
+
+.gridHint {
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.showGridHint .gridHint {
+  display: block;
+}
+.showGridHint [class^="col_"],
+.showGridHint [class*=" col_"] {
+  box-shadow: 0 0 2px black inset;
+}
+.showGridHint .gridHint [class^="col_"],
+.showGridHint .gridHint [class*=" col_"] {
+  height: 100%;
+  background-clip: content-box;
+  background-color: rgba(255, 0, 0, 0.5);
+  box-shadow: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+
+.left {
+  float: "left";
+}
+
+/*************************************** Desktop Componenet ****************************************/
+@media screen and (min-width: 1020px) {
+  .hidden_lg {
+    display: none;
+  }
+  .header {
+    display: contents;
+  }
+  .container {
+    width: 1040px;
+  }
+
+  .col_lg_1 {
+    width: 4.16666666667%;
+  }
+  .col_lg_2 {
+    width: 8.33333333333%;
+  }
+  .col_lg_3 {
+    width: 12.5%;
+  }
+  .col_lg_4 {
+    width: 16.6666666667%;
+  }
+  .col_lg_5 {
+    width: 20.8333333333%;
+  }
+  .col_lg_6 {
+    width: 25%;
+  }
+  .col_lg_7 {
+    width: 29.1666666667%;
+  }
+  .col_lg_8 {
+    width: 33.3333333333%;
+  }
+  .col_lg_9 {
+    width: 37.5%;
+  }
+  .col_lg_10 {
+    width: 41.6666666667%;
+  }
+  .col_lg_11 {
+    width: 45.8333333333%;
+  }
+  .col_lg_12 {
+    width: 50%;
+  }
+  .col_lg_13 {
+    width: 54.1666666667%;
+  }
+  .col_lg_14 {
+    width: 58.3333333333%;
+  }
+  .col_lg_15 {
+    width: 62.5%;
+  }
+  .col_lg_16 {
+    width: 66.6666666667%;
+  }
+  .col_lg_17 {
+    width: 70.8333333333%;
+  }
+  .col_lg_18 {
+    width: 75%;
+  }
+  .col_lg_19 {
+    width: 79.1666666667%;
+  }
+  .col_lg_20 {
+    width: 83.3333333333%;
+  }
+  .col_lg_21 {
+    width: 87.5%;
+  }
+  .col_lg_22 {
+    width: 91.6666666667%;
+  }
+  .col_lg_23 {
+    width: 95.8333333333%;
+  }
+  .col_lg_24 {
+    width: 100%;
+  }
+}
+
+/*************************************** Tablet Componenet ****************************************/
+
+@media screen and (max-width: 1020px) {
+  .hidden_md {
+    display: none;
+  }
+  .container {
+    width: 720px;
+  }
+  .header {
+    display: contents;
+  }
+  .alphaTab {
+    padding-left: 0px;
+  }
+  .omegaTab {
+    padding-right: 0px;
+  }
+  .right_md {
+    float: right;
+  }
+
+  .col_md_1 {
+    width: 4.16666666667%;
+  }
+  .col_md_2 {
+    width: 8.33333333333%;
+  }
+  .col_md_3 {
+    width: 12.5%;
+  }
+  .col_md_4 {
+    width: 16.6666666667%;
+  }
+  .col_md_5 {
+    width: 20.8333333333%;
+  }
+  .col_md_6 {
+    width: 25%;
+  }
+  .col_md_7 {
+    width: 29.1666666667%;
+  }
+  .col_md_8 {
+    width: 33.3333333333%;
+  }
+  .col_md_9 {
+    width: 37.5%;
+  }
+  .col_md_10 {
+    width: 41.6666666667%;
+  }
+  .col_md_11 {
+    width: 45.8333333333%;
+  }
+  .col_md_12 {
+    width: 50%;
+  }
+  .col_md_13 {
+    width: 54.1666666667%;
+  }
+  .col_md_14 {
+    width: 58.3333333333%;
+  }
+  .col_md_15 {
+    width: 62.5%;
+  }
+  .col_md_16 {
+    width: 66.6666666667%;
+  }
+  .col_md_17 {
+    width: 70.8333333333%;
+  }
+  .col_md_18 {
+    width: 75%;
+  }
+  .col_md_19 {
+    width: 79.1666666667%;
+  }
+  .col_md_20 {
+    width: 83.3333333333%;
+  }
+  .col_md_21 {
+    width: 87.5%;
+  }
+  .col_md_22 {
+    width: 91.6666666667%;
+  }
+  .col_md_23 {
+    width: 95.8333333333%;
+  }
+  .col_md_24 {
+    width: 100%;
+  }
+}
+
+/* Mobile Device Elements --------------------------------------------------------------------*/
+@media screen and (max-width: 729px) {
+  .header {
+    float: left;
+    display: inline-flex;
+    margin-bottom: 10px;
+  }
+  .hidden_sm {
+    display: none;
+  }
+  .container {
+    width: 480px;
+  }
+  [class^="col_"],
+  [class*=" col_"] {
+    padding: 0 10px;
+  }
+  .col_1 {
+    width: 4.16666666667%;
+  }
+  .col_2 {
+    width: 8.33333333333%;
+  }
+  .col_3 {
+    width: 12.5%;
+  }
+  .col_4 {
+    width: 16.6666666667%;
+  }
+  .col_5 {
+    width: 20.8333333333%;
+  }
+  .col_6 {
+    width: 25%;
+  }
+  .col_7 {
+    width: 29.1666666667%;
+  }
+  .col_8 {
+    width: 33.3333333333%;
+  }
+  .col_9 {
+    width: 37.5%;
+  }
+  .col_10 {
+    width: 41.6666666667%;
+  }
+  .col_11 {
+    width: 45.8333333333%;
+  }
+  .col_12 {
+    width: 50%;
+  }
+  .col_13 {
+    width: 54.1666666667%;
+  }
+  .col_14 {
+    width: 58.3333333333%;
+  }
+  .col_15 {
+    width: 62.5%;
+  }
+  .col_16 {
+    width: 66.6666666667%;
+  }
+  .col_17 {
+    width: 70.8333333333%;
+  }
+  .col_18 {
+    width: 75%;
+  }
+  .col_19 {
+    width: 79.1666666667%;
+  }
+  .col_20 {
+    width: 83.3333333333%;
+  }
+  .col_21 {
+    width: 87.5%;
+  }
+  .col_22 {
+    width: 91.6666666667%;
+  }
+  .col_23 {
+    width: 95.8333333333%;
+  }
+  .col_24 {
+    width: 100%;
+  }
+}
